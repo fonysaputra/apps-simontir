@@ -2,7 +2,8 @@ import React from "react";
 import { ResponsiveLine } from "@nivo/line";
 function Chart({ data }) {
   return (
-    <div style={{ height: 270 }}>
+    <div style={{ height: 270 }} className="text-center">
+      <span>Thread Voltage Of Battery Charge</span>
       <ResponsiveLine
         data={data}
         margin={{ top: 50, right: 10, bottom: 50, left: 35 }}
@@ -41,7 +42,7 @@ function Chart({ data }) {
         pointBorderColor={{ from: "serieColor" }}
         pointLabel="y"
         pointLabelYOffset={-12}
-        enableArea={true}
+        enableArea={false}
         useMesh={true}
         legends={[
           {

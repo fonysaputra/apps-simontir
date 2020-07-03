@@ -1,6 +1,6 @@
 function index() {
   return (
-    <div className="mt-4 col-md-12 ml-3">
+    <div className="mt-4 col-md-12 ml-0">
       <div className="row">
         <div className="col-md-6">
           <div className="card text-center">
@@ -21,6 +21,27 @@ function index() {
                   >
                     20%
                   </div>
+                </div>
+                <span className="p-2">20%</span>
+                <div>
+                  <button
+                    type="button"
+                    className="btn btn-outline-success btn-sm"
+                  >
+                    Full
+                  </button>
+                  <button
+                    type="button"
+                    className="btn btn-outline-warning btn-sm m-3"
+                  >
+                    Charge
+                  </button>
+                  <button
+                    type="button"
+                    className="btn btn-outline-danger btn-sm "
+                  >
+                    Empty
+                  </button>
                 </div>
               </div>
             </div>

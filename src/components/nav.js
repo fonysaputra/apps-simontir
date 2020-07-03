@@ -18,7 +18,7 @@ function Nav() {
         left: 0,
         top: 54,
         backgroundColor: "#7f7f7f",
-        height: "100%",
+        height: "140%",
         zIndex: 99,
       }}
     >
@@ -65,22 +65,9 @@ function Nav() {
       >
         <div style={{ backgroundColor: "gray" }} className="row">
           <div className="col">
-            <a href="/">
+            <a href="/dashboard">
               <div style={{ margin: 14 }}>
-                <i className="fa fa-plug"> </i> 1 january 2020
-                <div style={{ height: 2, backgroundColor: "black" }} />
-              </div>
-            </a>
-
-            <a href="/">
-              <div style={{ margin: 14 }}>
-                <i className="fa fa-plug"> </i> 1 january 2020
-                <div style={{ height: 2, backgroundColor: "black" }} />
-              </div>
-            </a>
-            <a href="/">
-              <div style={{ margin: 14 }}>
-                <i className="fa fa-plug"> </i> 1 january 2020
+                <i className="fa fa-plug"> </i> 3 July 2020
                 <div style={{ height: 2, backgroundColor: "black" }} />
               </div>
             </a>

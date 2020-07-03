@@ -25,7 +25,7 @@ function login() {
     <div className="container">
       <div className="card p-4 mt-5 m-5">
         <div className="text-center display-3 p-2">
-          <span>Simontir</span>
+          <span>Symontir</span>
         </div>
         <div className="p-5">
           <div className="input-group mb-3">

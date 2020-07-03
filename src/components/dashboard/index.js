@@ -3,7 +3,7 @@ import Header from "../header";
 import ManagementBattery from "./management-battery";
 import { useRouter } from "next/router";
 import StatusBattery from "./status-battery";
-
+import Chart from "./chart-dashboard";
 function Index() {
   const router = useRouter();
 
@@ -18,6 +18,7 @@ function Index() {
         style={{ marginLeft: "18%" }}
       >
         <ManagementBattery />
+        <Chart />
         <StatusBattery />
       </div>
     </>

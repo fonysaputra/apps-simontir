@@ -40,7 +40,7 @@ function Header() {
         </button>
         <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
           <a className="navbar-brand" href="/home">
-            Simontir
+            Symontir
           </a>
           <ul className="navbar-nav mr-auto mt-2 mt-lg-0 ml-lg-5">
             <li className="nav-item active">

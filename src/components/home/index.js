@@ -15,7 +15,7 @@ function Index() {
             }}
           >
             <div className="card ">
-              <h2 className="pt-5">Simontir</h2>
+              <h2 className="pt-5">Symontir</h2>
               <span className="p-3">
                 <img
                   width={100}
@@ -32,7 +32,12 @@ function Index() {
                   backgroundColor: "black",
                 }}
               ></div>
-              <span>fjorehvuerohovwehsoivhwe</span>
+              <div style={{ backgroundColor: "blue" }} className="text-white">
+                <span className="p-3">
+                  System Management & Monitoring Battery Lead Acid For Electric
+                  Car
+                </span>
+              </div>
             </div>
           </div>
         </div>

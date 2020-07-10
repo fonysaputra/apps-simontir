@@ -11,11 +11,23 @@ export default function index() {
     }, 3000);
   });
   return (
-    <div style={{ position: "absolute", margin: 0, top: 0, left: 0, right: 0 }}>
+    <div
+      style={{
+        backgroundColor: "purple",
+        position: "absolute",
+        margin: 0,
+        top: 0,
+        left: 0,
+        height: "100%",
+        textAlign: "center",
+        right: 0,
+      }}
+    >
       {/* <Home /> */}
       <img
-        width={"100%"}
-        src="https://images.unsplash.com/photo-1593086439822-bcebf2f1e052?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80"
+        width={200}
+        style={{ margin: 0, marginTop: "20%" }}
+        src="./logo.png"
       />
     </div>
   );

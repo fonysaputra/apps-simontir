@@ -14,13 +14,16 @@ function Index() {
               alignContent: "center",
             }}
           >
-            <div className="card ">
-              <h2 className="pt-5">Symontir</h2>
+            <div className="card " style={{ backgroundColor: "#696969" }}>
               <span className="p-3">
                 <img
-                  width={100}
-                  height={100}
-                  src="https://images.unsplash.com/photo-1534611238345-31c00a998587?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                  width={200}
+                  src="./logo.png"
+                  style={{
+                    backgroundColor: "green",
+                    borderRadius: 200,
+                    padding: 30,
+                  }}
                 />
               </span>
               <div
@@ -32,13 +35,31 @@ function Index() {
                   backgroundColor: "black",
                 }}
               ></div>
-              <div style={{ backgroundColor: "blue" }} className="text-white">
+              <div
+                style={{ backgroundColor: "#07dbdb", fontSize: 20 }}
+                className="text-white"
+              >
                 <span className="p-3">
                   System Management & Monitoring Battery Lead Acid For Electric
                   Car
                 </span>
+                <br />
+              </div>
+
+              <div
+                style={{ backgroundColor: "green", fontSize: 20 }}
+                className="text-white my-5"
+              >
+                <span className="p-3">
+                  SY MONTIR LIAR merupakan sebuah perangkat yang terdiri dari
+                  battery charger
+                </span>
+                <br />
               </div>
             </div>
+            <span className="float-right mt-3">
+              Powered By Mahasiswa Itera - Teknik Elektro
+            </span>
           </div>
         </div>
       </div>

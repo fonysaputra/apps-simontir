@@ -17,8 +17,8 @@ function Nav() {
         position: "absolute",
         left: 0,
         top: 54,
-        backgroundColor: "#7f7f7f",
-        height: "140%",
+        backgroundImage: "url(bata1.jpg)",
+        height: "150%",
         zIndex: 99,
       }}
     >

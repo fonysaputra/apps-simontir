@@ -20,6 +20,9 @@ function Index() {
         <ManagementBattery />
         <Chart />
         <StatusBattery />
+        <span className="float-right mt-3 mr-3">
+          Powered By Mahasiswa Itera - Teknik Elektro
+        </span>
       </div>
     </>
   );

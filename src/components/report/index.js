@@ -175,6 +175,11 @@ function Index() {
                   <ChartCurrent data={datas2} />
                 </div>
               </div>
+              <div>
+                <span className="float-right mt-3 mr-3 ">
+                  Powered By Mahasiswa Itera - Teknik Elektro
+                </span>
+              </div>
             </div>
           </div>
         </div>
